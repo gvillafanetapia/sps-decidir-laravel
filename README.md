@@ -34,7 +34,7 @@ Para usar la facade agregarla en `app/config/app.php`.
 'SPS' => 'SPSDecidirWrapper\Facades\SPS'
 ```
 
-Usage
+Uso
 ======
 
 TBC

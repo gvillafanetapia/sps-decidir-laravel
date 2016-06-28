@@ -39,7 +39,7 @@ class SPSDecidirServiceProvider extends ServiceProvider {
 	 */
 	protected function publishConfig() {
 		$this->publishes([
-			__DIR__ . '/config/config.php' => config_path('minify.config.php'),
+			__DIR__ . '/config/config.php' => config_path('SPS.config.php'),
 		]);
 	}
 
@@ -48,7 +48,7 @@ class SPSDecidirServiceProvider extends ServiceProvider {
 	 */
 	private function mergeConfig() {
 		$this->mergeConfigFrom(
-			__DIR__ . '/config/config.php', 'minify.config'
+			__DIR__ . '/config/config.php', 'SPS.config'
 		);
 	}
 

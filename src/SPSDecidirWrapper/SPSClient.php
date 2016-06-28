@@ -128,7 +128,7 @@ class SPSClient {
             "EncodingMethod" => $this->encoding,
             "Security" => "PRISMA " . $this->authtoken,
             "Payload" => "<Request>
-							<NROCOMERCIO>" . $authorize->NROCOMERCIO . "</NROCOMERCIO>
+							<NROCOMERCIO>" . $this->merchant . "</NROCOMERCIO>
 							<NROOPERACION>" . $authorize->NROOPERACION . "</NROOPERACION>
 							<MONTO>" . $authorize->MONTO . "</MONTO>
 							<MEDIODEPAGO>" . $authorize->MEDIODEPAGO . "</MEDIODEPAGO>

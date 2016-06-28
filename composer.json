@@ -3,6 +3,7 @@
     "type": "library",
     "description": "Wrapper de SPS Decidir para Laravel Framework.",
     "license": "MIT",
+    "version": "master",
     "authors": [
         {
             "name": "Gonzalo Villafane Tapia",
@@ -16,5 +17,9 @@
         "psr-4": {
             "SPSDecidirWrapper": "src/"
         }
+    },
+	"source": {
+        "url": "https://github.com/gvillafanetapia/sps-decidir-laravel",
+        "type": "git"
     }
 }

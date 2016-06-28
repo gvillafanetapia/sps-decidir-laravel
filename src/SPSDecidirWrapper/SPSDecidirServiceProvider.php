@@ -25,7 +25,12 @@ class SPSDecidirServiceProvider extends ServiceProvider {
             return new SPSClient(array(
                 'wsdl' => config('SPS.config.wsdl'),
                 'dev_wsdl' => config('SPS.config.dev_wsdl'),
+                'endpoint' => config('SPS.config.endpoint'),
+                'dev_endpoint' => config('SPS.config.dev_endpoint'),
                 'dev' => config('SPS.config.dev'),
+                'merchant_id' => config('SPS.config.merchant_id'),
+                'success_redirect_url' => config('SPS.config.success_redirect_url'),
+                'error_redirect_url' => config('SPS.config.error_redirect_url'),
                 'auth_token' => config('SPS.config.auth_token')
             ));
         });

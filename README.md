@@ -11,7 +11,7 @@ Agregar `gvillafane/sps-decidir-laravel` como dependencia en composer.json
 ```javascript
 {
     "require": {
-        "gvillafane/sps-decidir-laravel": "0.1.*"
+        "gvillafane/sps-decidir-laravel": "dev-master"
     }
 }
 ```

@@ -137,7 +137,6 @@ return array(
 		'TARJETA CENCOSUD' => 43,
 		'TARJETA VISA' => 1,
 		'TARJETA SHOPPING' => 23,
-		'TARJETA MASTERCARD' => 15 //o 20 para test 
-		''
+		'TARJETA MASTERCARD' => 15 //o 20 para test
 	]
 );

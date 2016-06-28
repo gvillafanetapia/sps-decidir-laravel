@@ -17,5 +17,10 @@
         "psr-4": {
             "SPSDecidirWrapper": "src/"
         }
+    },
+	"source": {
+        "type": "git",
+        "url": "https://github.com/gvillafanetapia/sps-decidir-laravel",
+		"reference": ""
     }
 }

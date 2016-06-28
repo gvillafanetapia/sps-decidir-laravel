@@ -16,22 +16,22 @@ Agregar `gvillafane/sps-decidir-laravel` como dependencia en composer.json
 }
 ```
 
+Configurar el service provider en `app/config/app.php`.
+
+```php
+SPSDecidirWrapper\SPSDecidirServiceProvider::class
+```
+
 Publicar el archivo de configuración con el siguiente comando:
 
 ```php
 php artisan vendor:publish
 ```
 
-Configurar el service provider en `app/config/app.php`.
-
-```php
-'SPSDecidirWrapper\SPSDecidirServiceProvider'
-```
-
 Para usar la facade agregarla en `app/config/app.php`.
 
 ```php
-'SPS' => 'SPSDecidirWrapper\Facades\SPS'
+'SPS' => SPSDecidirWrapper\Facades\SPS::class
 ```
 
 Uso

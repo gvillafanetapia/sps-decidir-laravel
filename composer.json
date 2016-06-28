@@ -1,5 +1,6 @@
 {
     "name": "gvillafane/sps-decidir-laravel",
+    "type": "library",
     "description": "Wrapper de SPS Decidir para Laravel Framework.",
     "license": "MIT",
     "authors": [
@@ -8,12 +9,11 @@
             "email": "gvillafanetapia@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
 		"php": ">=5.4.0"
 	},
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "SPSDecidirWrapper": "src/"
         }
     }

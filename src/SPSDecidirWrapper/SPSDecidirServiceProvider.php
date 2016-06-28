@@ -31,6 +31,7 @@ class SPSDecidirServiceProvider extends ServiceProvider {
                 'merchant_id' => config('SPS.config.merchant_id'),
                 'success_redirect_url' => config('SPS.config.success_redirect_url'),
                 'error_redirect_url' => config('SPS.config.error_redirect_url'),
+                'encoding' => config('SPS.config.encoding'),
                 'auth_token' => config('SPS.config.auth_token')
             ));
         });
